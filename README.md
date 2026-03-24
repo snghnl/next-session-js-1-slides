@@ -1,0 +1,27 @@
+# NEXT Session — JavaScript 1
+
+Slides for JavaScript Session 1, NEXT 14th, Korea University.
+
+## Development
+
+```bash
+bun install
+bun dev
+```
+
+Visit http://localhost:3030
+
+## Build & Deploy
+
+```bash
+bun run build
+# runs: slidev build --base /slides/next-js-session-1/
+```
+
+Pushing to the connected GitHub repository triggers an automatic build and deployment on Vercel.
+
+Deployment URL: `yourdomain.com/slides/next-js-session-1/`
+
+## Editing
+
+Edit [slides.md](./slides.md) to update the slides.

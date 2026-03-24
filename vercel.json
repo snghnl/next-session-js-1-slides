@@ -1,0 +1,5 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "buildCommand": "slidev build --base /slides/next-js-session-1/",
+  "outputDirectory": "dist"
+}

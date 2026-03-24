@@ -1,0 +1,10 @@
+.slidev-layout h2 {
+  margin-bottom: 1rem;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.25rem;
+}
