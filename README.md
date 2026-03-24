@@ -15,12 +15,12 @@ Visit http://localhost:3030
 
 ```bash
 bun run build
-# runs: slidev build --base /slides/next-js-session-1/
+# runs: slidev build --base /slides/next-session-js-1/
 ```
 
 Pushing to the connected GitHub repository triggers an automatic build and deployment on Vercel.
 
-Deployment URL: `yourdomain.com/slides/next-js-session-1/`
+Deployment URL: `yourdomain.com/slides/next-session-js-1/`
 
 ## Editing
 
