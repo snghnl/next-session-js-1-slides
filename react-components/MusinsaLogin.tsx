@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { EyeClosed, Eye } from "lucide-react";
+import kakaoLogo from "../assets/kakao-logo.png";
+import appleLogo from "../assets/apple-logo.png";
 
 export default function MusinsaLogin() {
   const [showPassword, setShowPassword] = useState(false);
@@ -301,7 +303,7 @@ export default function MusinsaLogin() {
             }}
           >
             <img
-              src="./assets/kakao-logo.png"
+              src={kakaoLogo}
               alt="Kakao"
               style={{ width: "20px", height: "20px" }}
             />
@@ -329,7 +331,7 @@ export default function MusinsaLogin() {
             }}
           >
             <img
-              src="./assets/apple-logo.png"
+              src={appleLogo}
               alt="Apple"
               style={{ width: "18px", height: "18px" }}
             />

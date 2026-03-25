@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Heart } from "lucide-react";
+import nikeShoes from "../assets/nike-shoes.png";
+import nikeLogo from "../assets/nike-logo.webp";
 
 export default function MusinsaProduct() {
   const [liked, setLiked] = useState(false);
@@ -41,7 +43,7 @@ export default function MusinsaProduct() {
           }}
         >
           <img
-            src="./assets/nike-shoes.png"
+            src={nikeShoes}
             alt="Nike P-6000"
             style={{
               width: "100%",
@@ -96,7 +98,7 @@ export default function MusinsaProduct() {
               }}
             >
               <img
-                src="./assets/nike-logo.webp"
+                src={nikeLogo}
                 alt="Nike"
                 style={{ width: "20px" }}
               />
